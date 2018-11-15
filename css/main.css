@@ -23,9 +23,10 @@ a {
 }
 
 .link-card {
-  display: block;
+  display: inline-block;
   border-color: #9a816d;
 }
+
 .link-card:hover {
   background-color: #cabdb2;
 }
@@ -34,27 +35,43 @@ h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
-  padding: .4em .75em .5em;
+  margin: 1rem;
+  padding: 0;
 }
 
 p {
   font-size: 1rem;
   color: #512200;
-  padding: .4em .75em .5em;
-}
-
-hr {
-  width: 90%;
-  color: #cabdb2;
+  margin: 1rem;
+  padding: 0 0 1rem;
+  display: flex;
+  border-bottom: solid;
+  border-bottom-color: #9a816d;
 }
 
 .list {
   font-size: .875rem;
   color: #512200;
+  margin: 1rem;
+  border-bottom: solid;
+  border-bottom-color: #9a816d;
+  padding: 0 0 1rem;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+}
+
+dt {
+  float: left;
+  width: 50%;
 }
 
 dd {
   font-style: italic;
+  float: left;
+  width: 50%;
 }
 
 .btn {
@@ -63,13 +80,18 @@ dd {
   color: #f0eee8;
   background-color: #785439;
   border-color: #785439;
-  border-radius: 3px;
+  border-radius: 8px;
   border-width: 2px;
+  font-weight: bold;
+  padding: .4em .75em .5em;
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
 }
 
 .btn:hover {
   background-color: #512200;
   border-color: #512200;
-  border-radius: 3px;
+  border-radius: 8px;
   border-width: 2px;
 }
