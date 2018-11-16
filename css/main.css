@@ -27,10 +27,6 @@ a {
   border-color: #9a816d;
 }
 
-.link-card:hover {
-  background-color: #cabdb2;
-}
-
 h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
@@ -94,4 +90,8 @@ dd {
   border-color: #512200;
   border-radius: 8px;
   border-width: 2px;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
