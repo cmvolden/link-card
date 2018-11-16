@@ -25,6 +25,11 @@ a {
 .link-card {
   display: inline-block;
   border-color: #9a816d;
+  max-width: 19em;
+}
+
+.link-card h2 {
+  display: block;
 }
 
 h2 {
@@ -51,23 +56,23 @@ p {
   margin: 1rem;
   border-bottom: solid;
   border-bottom-color: #9a816d;
-  padding: 0 0 1rem;
+  padding: 0;
 }
 
 dl {
-  width: 100%;
-  overflow: hidden;
+  max-width: 20em;
 }
 
 dt {
-  float: left;
-  width: 50%;
+  display: inline-block;
+  width: 6em;
 }
 
 dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
   font-style: italic;
-  float: left;
-  width: 50%;
 }
 
 .btn {
@@ -81,8 +86,7 @@ dd {
   font-weight: bold;
   padding: .4em .75em .5em;
   display: inline-block;
-  margin: 0 1rem 1rem;
-  text-align: center;
+  margin: 0 1rem 1rem 5rem;
 }
 
 .btn:hover {
